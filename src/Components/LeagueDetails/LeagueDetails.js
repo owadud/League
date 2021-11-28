@@ -34,7 +34,7 @@ const LeagueDetails = () => {
             <div className='row justify-content-between d-flex w-100'>
            
                 {   
-                    seasons.map(season =>
+                    seasons?.map(season =>
                         <div className="intro col-3  rounded mt-5 p-4 align-items-center">
                             <p>Match: <span className="text-success ">{season.strEvent}</span></p>
                             {/* <p>Country:{league.strCountry}</p>
